@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<style>
+    /* table {
+        width: 100%;
+        height: 600px;
+        border: 1px solid black;
+    }
+    
+    #bg-overly th {
+        border: 1px solid black;
+    } */
+    
+    table {
+        empty-cells: show;
+    }
+    
+    td {
+        border-radius: 10px;
+        width: 100px;
+        height: 55px;
+        line-height: 55px;
+        text-align: center;
+        border: 0px solid #FFFFFF;
+    }
+    /* table tr td:hover {
+        background: LightCyan !important;
+        cursor: pointer;
+    } */
+    
+    tbody tr:nth-child(odd) td:nth-child(even),
+    tbody tr:nth-child(even) td:nth-child(odd) {
+        /*color: #FF0000 ;*/
+        background-color: PowderBlue;
+    }
+    
+    tbody tr:nth-child(even) td:nth-child(even),
+    tbody tr:nth-child(odd) td:nth-child(odd) {
+        background-color: SkyBlue;
+    }
+    /*tbody {
+    counter-reset: rowNumber;
+}
+
+tr {
+    counter-increment: rowNumber;
+    counter-reset: cellNumber;
+}
+
+td {
+    counter-increment: cellNumber;
+}
+
+    td::before {
+        content: counter(cellNumber);
+    }*/
+</style>
+
+<body>
+
+
+
+    <script src="main.js"></script>
+
+
+
+</body>
+
+</html>
